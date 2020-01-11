@@ -38,7 +38,9 @@ exerciseRouter.put("/:id", async (req, res) => {
 	try {
 		const id = req.params.id;
 
-		const exercise = await Exercise.findByIdAndUpdate(id, req.body);
+		const exercise = await Exercise.findByIdAndUpdate(id, req.body, {
+			new: true
+		});
 
 		res.status(200).json(exercise);
 	} catch (error) {

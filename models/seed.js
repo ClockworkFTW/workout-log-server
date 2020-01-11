@@ -5,8 +5,8 @@ exercises = [
 	{
 		name: "bench press",
 		difficulty: "beginner",
-		category: "barbell",
-		bodypart: "chest",
+		type: "barbell",
+		muscle: "chest",
 		description:
 			"The barbell bench press is an upper body pressing drill that builds size and strength in the upper body, specifically in the chest, triceps, and shoulders. Lying flat on a bench allows for improved stability. The exercise allows for the greatest amount of weight to used, which makes it ideal for building strength, size, and power.",
 		default: true
@@ -14,148 +14,148 @@ exercises = [
 	{
 		name: "incline bench press",
 		difficulty: "beginner",
-		category: "barbell",
-		bodypart: "chest",
+		type: "barbell",
+		muscle: "chest",
 		default: true
 	},
 	{
 		name: "decline bench press",
 		difficulty: "beginner",
-		category: "barbell",
-		bodypart: "chest",
+		type: "barbell",
+		muscle: "chest",
 		default: true
 	},
 	{
 		name: "bench press",
 		difficulty: "beginner",
-		category: "dumbell",
-		bodypart: "chest",
+		type: "dumbell",
+		muscle: "chest",
 		default: true
 	},
 	{
 		name: "incline press",
 		difficulty: "beginner",
-		category: "dumbell",
-		bodypart: "chest",
+		type: "dumbell",
+		muscle: "chest",
 		default: true
 	},
 	{
 		name: "decline press",
 		difficulty: "beginner",
-		category: "dumbell",
-		bodypart: "chest",
+		type: "dumbell",
+		muscle: "chest",
 		default: true
 	},
 	{
 		name: "fly",
 		difficulty: "beginner",
-		category: "dumbell",
-		bodypart: "chest",
+		type: "dumbell",
+		muscle: "chest",
 		default: true
 	},
 	{
 		name: "squat",
 		difficulty: "intermediate",
-		category: "barbell",
-		bodypart: "quadriceps",
+		type: "barbell",
+		muscle: "quadriceps",
 		default: true
 	},
 	{
 		name: "deadlift",
 		difficulty: "advanced",
-		category: "barbell",
-		bodypart: "quadriceps",
+		type: "barbell",
+		muscle: "quadriceps",
 		default: true
 	},
 	{
 		name: "leg curl",
 		difficulty: "beginner",
-		category: "machine",
-		bodypart: "legs",
+		type: "machine",
+		muscle: "legs",
 		default: true
 	},
 	{
 		name: "leg extension",
 		difficulty: "beginner",
-		category: "machine",
-		bodypart: "quadriceps",
+		type: "machine",
+		muscle: "quadriceps",
 		default: true
 	},
 	{
 		name: "calf raise",
 		difficulty: "beginner",
-		category: "machine",
-		bodypart: "calves",
+		type: "machine",
+		muscle: "calves",
 		default: true
 	},
 	{
 		name: "military press",
 		difficulty: "intermediate",
-		category: "barbell",
-		bodypart: "deltoids",
+		type: "barbell",
+		muscle: "deltoids",
 		default: true
 	},
 	{
 		name: "shoulder press",
 		difficulty: "beginner",
-		category: "dumbbell",
-		bodypart: "deltoids",
+		type: "dumbbell",
+		muscle: "deltoids",
 		default: true
 	},
 	{
 		name: "front lateral raise",
 		difficulty: "beginner",
-		category: "dumbbell",
-		bodypart: "deltoids",
+		type: "dumbbell",
+		muscle: "deltoids",
 		default: true
 	},
 	{
 		name: "side lateral raise",
 		difficulty: "beginner",
-		category: "dumbbell",
-		bodypart: "deltoids",
+		type: "dumbbell",
+		muscle: "deltoids",
 		default: true
 	},
 	{
 		name: "reverse fly",
 		difficulty: "beginner",
-		category: "dumbbell",
-		bodypart: "deltoids",
+		type: "dumbbell",
+		muscle: "deltoids",
 		default: true
 	},
 	{
 		name: "bicep curl",
 		difficulty: "beginner",
-		category: "barbell",
-		bodypart: "biceps",
+		type: "barbell",
+		muscle: "biceps",
 		default: true
 	},
 	{
 		name: "bicep curl",
 		difficulty: "beginner",
-		category: "dumbbell",
-		bodypart: "biceps",
+		type: "dumbbell",
+		muscle: "biceps",
 		default: true
 	},
 	{
 		name: "skull crushers",
 		difficulty: "beginner",
-		category: "barbell",
-		bodypart: "triceps",
+		type: "barbell",
+		muscle: "triceps",
 		default: true
 	},
 	{
 		name: "triceps pushdowns",
 		difficulty: "beginner",
-		category: "cable",
-		bodypart: "triceps",
+		type: "cable",
+		muscle: "triceps",
 		default: true
 	},
 	{
 		name: "lunges",
 		difficulty: "beginner",
-		category: "dumbbell",
-		bodypart: "quadriceps",
+		type: "dumbbell",
+		muscle: "quadriceps",
 		default: true
 	}
 ];
