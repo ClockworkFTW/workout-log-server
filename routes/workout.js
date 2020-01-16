@@ -15,7 +15,7 @@ workoutRouter.get("/", async (req, res) => {
 	}
 });
 
-// Create a workout
+// Create new workout
 workoutRouter.post("/", async (req, res) => {
 	try {
 		const workout = new Workout(req.body);

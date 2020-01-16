@@ -71,7 +71,7 @@ exercises = [
 		name: "leg curl",
 		difficulty: "beginner",
 		type: "machine",
-		muscle: "legs",
+		muscle: "hamstrings",
 		default: true
 	},
 	{
