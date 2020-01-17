@@ -9,7 +9,7 @@ const dbConnect = async () => {
 			useUnifiedTopology: true
 		});
 		console.log("Connected to mongodb");
-		await seedDb();
+		// await seedDb();
 	} catch (error) {
 		console.log(error);
 	}

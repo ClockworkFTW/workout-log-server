@@ -61,7 +61,9 @@ userRouter.post("/signin", async (req, res) => {
 		const token = jwt.sign(payload, "secret");
 
 		res.status(200).json({ token, ...payload });
-	} catch (error) {}
+	} catch (error) {
+		res.status(400).json({ error });
+	}
 });
 
 module.exports = userRouter;
