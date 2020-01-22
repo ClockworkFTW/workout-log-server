@@ -1,13 +1,13 @@
 const mongoose = require("mongoose");
 
 const exerciseSubSchema = new mongoose.Schema({
+	_id: false,
 	exercise: {
 		type: mongoose.Schema.Types.ObjectId,
 		ref: "Exercise",
 		required: true
 	},
-	sets: { type: Array, required: true },
-	_id: false
+	sets: { type: Array, required: true }
 });
 
 const workoutSchema = new mongoose.Schema({

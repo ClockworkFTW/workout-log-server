@@ -46,7 +46,26 @@ workoutRouter.put("/:id", async (req, res) => {
 
 		res.status(200).json(updatedWorkout);
 	} catch (error) {
-		res.status(400).json({ error });
+		res.status(400).json({
+			message:
+				"We're sorry, the workout could not be updated. Please try again!"
+		});
+	}
+});
+
+// Delete workout
+workoutRouter.delete("/:id", async (req, res) => {
+	try {
+		const id = req.params.id;
+
+		await Workout.findByIdAndDelete(id);
+
+		res.status(200).end();
+	} catch (error) {
+		res.status(400).json({
+			message:
+				"We're sorry, the workout could not be deleted. Please try again!"
+		});
 	}
 });
 

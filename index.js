@@ -11,6 +11,9 @@ app.use(bodyParser());
 const userRouter = require("./routes/user");
 app.use("/user", userRouter);
 
+const measurementRouter = require("./routes/measurement");
+app.use("/measurement", measurementRouter);
+
 const exerciseRouter = require("./routes/exercise");
 app.use("/exercise", exerciseRouter);
 
