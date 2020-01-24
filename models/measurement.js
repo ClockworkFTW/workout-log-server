@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const dataSchema = new mongoose.Schema({
 	_id: false,
-	x: { type: Date, default: new Date() },
+	x: { type: String },
 	y: { type: Number }
 });
 

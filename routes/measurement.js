@@ -19,7 +19,7 @@ measurementRouter.get("/", async (req, res) => {
 // Update user measurements
 measurementRouter.put("/", async (req, res) => {
 	try {
-		const measurements = await Measurement.findByIdAndUpdate(
+		const measurements = await Measurement.findOneAndUpdate(
 			{ user: req.user.id },
 			req.body,
 			{ new: true }

@@ -29,11 +29,26 @@ userRouter.post("/signup", async (req, res) => {
 			sections: config.measurements.map(measurement => ({
 				id: measurement,
 				data: [
-					{ x: new Date(2020, 1, 5), y: 191 },
-					{ x: new Date(2020, 1, 6), y: 192 },
-					{ x: new Date(2020, 1, 7), y: 190 },
-					{ x: new Date(2020, 1, 8), y: 192 },
-					{ x: new Date(2020, 1, 9), y: 193 }
+					{
+						x: "2020-01-05",
+						y: 191
+					},
+					{
+						x: "2020-01-06",
+						y: 192
+					},
+					{
+						x: "2020-01-07",
+						y: 190
+					},
+					{
+						x: "2020-01-08",
+						y: 192
+					},
+					{
+						x: "2020-01-09",
+						y: 193
+					}
 				]
 			})),
 			user: user._id
