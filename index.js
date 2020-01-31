@@ -20,6 +20,9 @@ app.use("/exercise", exerciseRouter);
 const workoutRouter = require("./routes/workout");
 app.use("/workout", workoutRouter);
 
+const historyRouter = require("./routes/history");
+app.use("/history", historyRouter);
+
 const PORT = process.env.PORT || 3005;
 
 app.listen(PORT, () => {
