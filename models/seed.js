@@ -7,8 +7,13 @@ exercises = [
 		difficulty: "beginner",
 		type: "barbell",
 		muscle: "chest",
-		description:
-			"The barbell bench press is an upper body pressing drill that builds size and strength in the upper body, specifically in the chest, triceps, and shoulders. Lying flat on a bench allows for improved stability. The exercise allows for the greatest amount of weight to used, which makes it ideal for building strength, size, and power.",
+		instructions: [
+			"Position yourself with your back down on a flat bench placing the hands up on the bar using an underhand grip slightly wider than shoulder width apart.",
+			"After taking a deep breath in, extend the elbows and lift the bar up off the rack until elbows are extended but not locked. Pause for a brief movement as you fully extend your breath.",
+			"Lower the weight directly down to the chest as you breath inwards, keeping the movement pattern slow and steady.",
+			"Once just above the chest, pause, and then press directly up again, exhaling your breath.",
+			"Continue until all reps are completed and then re-rack the barbell."
+		],
 		default: true
 	},
 	{

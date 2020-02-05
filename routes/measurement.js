@@ -10,7 +10,7 @@ measurementRouter.get("/", async (req, res) => {
 	try {
 		const measurements = await Measurement.findOne({ user: req.user.id });
 
-		res.status(200).json(measurements);
+		res.status(200).json(measurements.sections);
 	} catch (error) {
 		res.status(400).json({ error });
 	}
@@ -25,7 +25,7 @@ measurementRouter.put("/", async (req, res) => {
 			{ new: true }
 		);
 
-		res.status(200).json(measurements);
+		res.status(200).json(measurements.sections);
 	} catch (error) {
 		res.status(400).json({ error });
 	}

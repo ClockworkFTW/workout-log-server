@@ -6,7 +6,7 @@ const exerciseSchema = new mongoose.Schema({
 	type: { type: String, required: true },
 	muscle: { type: String, required: true },
 	default: { type: Boolean, default: false },
-	description: { type: String },
+	instructions: [{ type: String }],
 	user: { type: mongoose.Schema.Types.ObjectId, ref: "User" }
 });
 
